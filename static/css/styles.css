@@ -1,0 +1,114 @@
+body {
+    margin: 0 auto;
+    background-image: url("../img/main_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.body_wrapper {
+    color: #a6a6a6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.sidebar-nav {
+    gap: 5px;
+}
+
+.sidebar-nav a {
+    color: #a6a6a6;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.sidebar-nav a:hover {
+    color: #fcfafa;
+}
+
+.list-group-item {
+    background-size: cover;
+    background: #2d2d3a url("../img/main_background.jpg") no-repeat;
+}
+
+.list-group-item-selected {
+    background: #2d2d3a url("../img/dark_grey2.jpg") no-repeat;
+}
+
+.tasks_wrapper {
+    width: 100%;
+    gap: 15px;
+    margin-top: 15px;
+    text-align: left;
+
+}
+
+.tasks_wrapper a {
+    text-decoration: none;
+    color: #e7e4e4;
+}
+
+
+.wrapper_box_sensory_place h6 {
+    text-align: center;
+}
+
+
+.update_button, .delete_button {
+    font-size: 12px;
+}
+
+.col-sm-10 {
+    text-align: center;
+    width: 62%;
+
+}
+
+.col-sm-10 ul {
+    list-style-type: none;
+
+}
+
+.container-fluid {
+    width: 90%;
+    min-height: 550px;
+}
+
+.form-inline {
+    justify-content: center;
+}
+
+
+.form_create_task p, .form_create_tag p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+ #id_deadline_month, #id_deadline_day, #id_deadline_year{
+    width: 200px;
+
+}
+.task_completed {
+    color: #02ff46;
+    display: inline;
+}
+
+.task_not_completed {
+    color: #ff0c0c;
+    display: inline;
+
+}
+
+.task_h6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table {
+    color: #a6a6a6;
+    border: none;
+}
